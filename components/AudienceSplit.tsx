@@ -54,12 +54,12 @@ export default function AudienceSplit() {
                         {/* Shield Icon */}
                         <svg className="w-8 h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" /></svg>
                     </div>
-                    <h3 className="text-3xl font-bold text-white mb-8">What Parents Want</h3>
-                    <ul className="space-y-6">
+                    <h3 className="text-xl md:text-3xl font-bold text-white mb-4 md:mb-8">What Parents Want</h3>
+                    <ul className="space-y-4 md:space-y-6">
                         {["Is this safe for my child?", "Will it harm their developing skin?", "Is this responsible and science-backed?"].map((text, i) => (
                             <li key={i} className="flex items-start">
-                                <span className="w-2 h-2 rounded-full bg-white mt-2 mr-4 shrink-0" />
-                                <span className="text-xl text-white/90 font-medium">{text}</span>
+                                <span className="w-2 h-2 rounded-full bg-white mt-1 md:mt-2 mr-3 md:mr-4 shrink-0" />
+                                <span className="text-sm md:text-xl text-white/90 font-medium">{text}</span>
                             </li>
                         ))}
                     </ul>
@@ -76,12 +76,12 @@ export default function AudienceSplit() {
                         {/* Mirror/User Icon */}
                         <svg className="w-8 h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="8" r="4" /><path d="M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2" /></svg>
                     </div>
-                    <h3 className="text-3xl font-bold text-charcoal mb-8">What Teens Want</h3>
-                    <ul className="space-y-6">
+                    <h3 className="text-xl md:text-3xl font-bold text-charcoal mb-4 md:mb-8">What Teens Want</h3>
+                    <ul className="space-y-4 md:space-y-6">
                         {["Does it actually feel good?", "Will I use it every day?", "Does it respect my intelligence?"].map((text, i) => (
                             <li key={i} className="flex items-start">
-                                <span className="w-2 h-2 rounded-full bg-turquoise mt-2 mr-4 shrink-0" />
-                                <span className="text-xl text-charcoal/80 font-medium">{text}</span>
+                                <span className="w-2 h-2 rounded-full bg-turquoise mt-1 md:mt-2 mr-3 md:mr-4 shrink-0" />
+                                <span className="text-sm md:text-xl text-charcoal/80 font-medium">{text}</span>
                             </li>
                         ))}
                     </ul>

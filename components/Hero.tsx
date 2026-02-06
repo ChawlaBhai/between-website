@@ -94,7 +94,7 @@ export default function Hero() {
 
                 <div ref={textContent} className="text-center opacity-0 translate-y-8 px-4 w-full max-w-5xl">
                     <h1 className="text-4xl md:text-6xl font-bold text-charcoal mb-6 tracking-tight leading-tight">
-                        Who makes personal care for<br className="hidden md:block" />
+                        Who makes personal care for <br className="hidden md:block" />
                         the years in between?
                     </h1>
                     <p className="text-lg md:text-2xl text-charcoal/80 font-medium leading-relaxed">
@@ -116,10 +116,10 @@ export default function Hero() {
                 {/* Left: Baby Products - 1/3 Width, Content Left Aligned */}
                 <div
                     ref={leftShelf}
-                    className="w-1/3 h-full bg-[#f0f4f8] flex items-center justify-start pl-4 md:pl-12 border-r border-charcoal/5 relative z-10 opacity-0 pointer-events-auto"
+                    className="w-1/3 h-full bg-[#f0f4f8] flex items-start md:items-center justify-start pl-2 md:pl-12 pt-4 md:pt-0 border-r border-charcoal/5 relative z-10 opacity-0 pointer-events-auto"
                 >
-                    <div className="text-left w-full flex flex-col items-start -translate-y-4 md:-translate-y-6">
-                        <div className="relative w-32 h-32 md:w-56 md:h-56 mb-2 -ml-4 md:-ml-8">
+                    <div className="text-left w-full flex flex-col items-start">
+                        <div className="relative w-28 h-28 md:w-56 md:h-56 mb-0 md:mb-2 -ml-4 md:-ml-8">
                             <Image
                                 src="/baby-products.png"
                                 alt="Baby Products"
@@ -127,8 +127,8 @@ export default function Hero() {
                                 className="object-contain"
                             />
                         </div>
-                        <h3 className="font-bold text-3xl md:text-5xl text-charcoal mb-2">0–8</h3>
-                        <p className="font-sans text-charcoal/60 text-sm md:text-lg tracking-widest uppercase">
+                        <h3 className="font-bold text-lg md:text-5xl text-charcoal mb-0 md:mb-2">0–8</h3>
+                        <p className="font-sans text-charcoal/60 text-[10px] md:text-lg tracking-widest uppercase">
                             Too mild
                         </p>
                     </div>
@@ -139,13 +139,13 @@ export default function Hero() {
                     {/* Spacer */}
                 </div>
 
-                {/* Right: Adult Skincare - 1/3 Width, Content Right Aligned */}
+                {/* Right: Adult Skincare - Mobile: 33%, Desktop: 33% */}
                 <div
                     ref={rightShelf}
-                    className="w-1/3 h-full bg-[#e8eaed] flex items-center justify-end pr-4 md:pr-12 border-l border-charcoal/5 relative z-10 opacity-0 pointer-events-auto"
+                    className="w-1/3 h-full bg-[#e8eaed] flex items-start md:items-center justify-end pr-2 md:pr-12 pt-4 md:pt-0 border-l border-charcoal/5 relative z-10 opacity-0 pointer-events-auto"
                 >
-                    <div className="text-right w-full flex flex-col items-end -translate-y-4 md:-translate-y-6">
-                        <div className="relative w-32 h-32 md:w-56 md:h-56 mb-2 -mr-4 md:-mr-8">
+                    <div className="text-right w-full flex flex-col items-end">
+                        <div className="relative w-28 h-28 md:w-56 md:h-56 mb-0 md:mb-2 -mr-4 md:-mr-8">
                             <Image
                                 src="/adult-products.png"
                                 alt="Adult Products"
@@ -153,8 +153,8 @@ export default function Hero() {
                                 className="object-contain"
                             />
                         </div>
-                        <h3 className="font-bold text-3xl md:text-5xl text-charcoal mb-2">18+</h3>
-                        <p className="font-sans text-charcoal/60 text-sm md:text-lg tracking-widest uppercase">
+                        <h3 className="font-bold text-lg md:text-5xl text-charcoal mb-0 md:mb-2">18+</h3>
+                        <p className="font-sans text-charcoal/60 text-[10px] md:text-lg tracking-widest uppercase">
                             Too harsh
                         </p>
                     </div>

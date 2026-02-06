@@ -71,7 +71,7 @@ export default function ProofSection() {
     return (
         <section ref={container} className="min-h-[80vh] w-full bg-white flex flex-col items-center justify-center py-24 px-6">
 
-            <h2 ref={headline} className="text-4xl md:text-6xl font-bold text-charcoal mb-20 text-center">
+            <h2 ref={headline} className="text-3xl md:text-6xl font-bold text-charcoal mb-12 md:mb-20 text-center">
                 We didn't guess. We asked.
             </h2>
 
@@ -79,20 +79,20 @@ export default function ProofSection() {
 
                 {/* Stat 1 */}
                 <div className="stat-item flex flex-col items-center text-center" data-suffix="+">
-                    <span className="stat-number text-7xl md:text-9xl font-bold text-turquoise mb-4" data-target="500">0</span>
-                    <p className="text-charcoal font-bold text-xl uppercase tracking-widest">In-person interviews</p>
+                    <span className="stat-number text-5xl md:text-9xl font-bold text-turquoise mb-2 md:mb-4" data-target="500">0</span>
+                    <p className="text-charcoal font-bold text-sm md:text-xl uppercase tracking-widest">In-person interviews</p>
                 </div>
 
                 {/* Stat 2 */}
                 <div className="stat-item flex flex-col items-center text-center" data-suffix="%">
-                    <span className="stat-number text-7xl md:text-9xl font-bold text-turquoise mb-4" data-target="70">0</span>
-                    <p className="text-charcoal font-bold text-xl uppercase tracking-widest">Said "This is a real problem"</p>
+                    <span className="stat-number text-5xl md:text-9xl font-bold text-turquoise mb-2 md:mb-4" data-target="70">0</span>
+                    <p className="text-charcoal font-bold text-sm md:text-xl uppercase tracking-widest">Said "This is a real problem"</p>
                 </div>
 
                 {/* Stat 3 */}
                 <div className="stat-item flex flex-col items-center text-center" data-suffix="%">
-                    <span className="stat-number text-7xl md:text-9xl font-bold text-turquoise mb-4" data-target="30">0</span>
-                    <p className="text-charcoal font-bold text-xl uppercase tracking-widest">Said "I can't unsee it"</p>
+                    <span className="stat-number text-5xl md:text-9xl font-bold text-turquoise mb-2 md:mb-4" data-target="30">0</span>
+                    <p className="text-charcoal font-bold text-sm md:text-xl uppercase tracking-widest">Said "I can't unsee it"</p>
                 </div>
 
             </div>

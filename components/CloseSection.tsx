@@ -80,13 +80,13 @@ export default function CloseSection() {
     );
 
     return (
-        <section ref={container} className="h-screen w-full bg-white flex flex-col items-center justify-center py-12 px-6 relative z-10 pb-20">
+        <section ref={container} className="h-screen w-full bg-white flex flex-col items-center justify-center py-24 md:py-12 px-6 relative z-10 pb-28 md:pb-20">
 
-            <div className="text-center mb-16 max-w-4xl">
-                <h2 ref={headline} className="text-5xl md:text-7xl font-bold text-charcoal leading-tight">
+            <div className="text-center mb-10 md:mb-16 max-w-4xl pt-20 md:pt-0">
+                <h2 ref={headline} className="text-4xl md:text-7xl font-bold text-charcoal leading-tight">
                     Growing skin doesn't need to be fixed.
                     <br />
-                    <span className="text-turquoise mt-6 block">Let's prove it.</span>
+                    <span className="text-turquoise mt-4 md:mt-6 block">Let's prove it!</span>
                 </h2>
             </div>
 

@@ -73,7 +73,7 @@ export default function ChallengeSection() {
         <section ref={container} className="min-h-screen w-full bg-[#f8f9fa] flex flex-col items-center justify-center py-20 px-6 md:px-12 relative overflow-hidden">
 
             <div className="text-center mb-8 md:mb-10">
-                <h2 ref={headline} className="text-4xl md:text-6xl font-bold text-charcoal leading-tight">
+                <h2 ref={headline} className="text-3xl md:text-6xl font-bold text-charcoal leading-tight">
                     Why this is hard?
                     <br />
                     <span className="text-charcoal/60">(And why that's the point.)</span>

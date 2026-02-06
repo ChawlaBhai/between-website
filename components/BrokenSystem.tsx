@@ -92,7 +92,7 @@ export default function BrokenSystem() {
             <div className="text-center px-4 max-w-4xl">
                 <h2
                     ref={mainText}
-                    className="text-5xl md:text-7xl font-bold text-charcoal mb-12 min-h-[1.2em]"
+                    className="text-4xl md:text-7xl font-bold text-charcoal mb-8 md:mb-12 min-h-[1.2em]"
                 >
                     {/* Text injected by GSAP */}
                 </h2>

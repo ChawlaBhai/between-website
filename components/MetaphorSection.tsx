@@ -63,9 +63,9 @@ export default function MetaphorSection() {
                 ref={leftSide}
                 className="w-full md:w-1/2 h-[50vh] md:h-screen bg-gray-50 flex flex-col items-center justify-center p-8 border-r border-charcoal/5 relative group transition-transform hover:-translate-y-1 duration-500 ease-out"
             >
-                <div className="mb-8 p-6 bg-white rounded-full shadow-sm group-hover:shadow-md transition-shadow">
+                <div className="mb-4 md:mb-8 p-4 md:p-6 bg-white rounded-full shadow-sm group-hover:shadow-md transition-shadow">
                     {/* Placeholder Icon for Fragile/Bubble Wrap */}
-                    <svg className="w-16 h-16 text-charcoal/40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                    <svg className="w-12 h-12 md:w-16 md:h-16 text-charcoal/40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                         <path d="M12 3v18M3 12h18" strokeDasharray="4 4" />
                         <rect x="5" y="5" width="14" height="14" rx="2" strokeDasharray="4 4" />
                     </svg>
@@ -82,9 +82,9 @@ export default function MetaphorSection() {
             >
                 <div className="absolute inset-0 bg-turquoise/5 opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
 
-                <div className="mb-8 p-6 bg-turquoise/10 rounded-full shadow-sm group-hover:shadow-md transition-shadow z-10">
+                <div className="mb-4 md:mb-8 p-4 md:p-6 bg-turquoise/10 rounded-full shadow-sm group-hover:shadow-md transition-shadow z-10">
                     {/* Placeholder Icon for Sports/Resilience */}
-                    <svg className="w-16 h-16 text-turquoise" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                    <svg className="w-12 h-12 md:w-16 md:h-16 text-turquoise" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                         <path d="M12 2l3 6 6 1-4.5 4.5L18 22l-6-3-6 3 1.5-8.5L3 9l6-1z" />
                     </svg>
                 </div>

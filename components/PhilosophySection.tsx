@@ -46,16 +46,16 @@ export default function PhilosophySection() {
     );
 
     return (
-        <section ref={container} className="min-h-screen w-full bg-[#F8F9FA] flex flex-col items-center justify-center py-24 px-6">
+        <section ref={container} className="min-h-screen w-full bg-[#F8F9FA] flex flex-col items-center justify-center py-12 md:py-24 px-6">
 
             {/* Main Statement */}
-            <div className="text-center max-w-4xl mb-20">
-                <h2 ref={title} className="text-4xl md:text-6xl font-bold text-charcoal leading-tight">
+            <div className="text-center max-w-4xl mb-10 md:mb-20">
+                <h2 ref={title} className="text-2xl md:text-6xl font-bold text-charcoal leading-tight">
                     Healthy growing skin
                     <br />
                     doesn't need to be fixed.
                     <br />
-                    <span className="text-turquoise mt-4 block">It needs to be supported.</span>
+                    <span className="text-turquoise mt-2 md:mt-4 block">It needs to be supported.</span>
                 </h2>
             </div>
 

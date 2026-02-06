@@ -108,7 +108,7 @@ export default function CalendarSection() {
             <div className="lg:w-2/3 relative w-full flex items-center justify-center py-10">
                 <div
                     ref={gridContainer}
-                    className="grid grid-cols-5 gap-2 md:gap-4 max-w-xl mx-auto w-full"
+                    className="grid grid-cols-6 md:grid-cols-5 gap-1 md:gap-4 max-w-xl mx-auto w-full"
                 >
                     {DAYS.map((day, i) => {
                         const isProblemDay = PROBLEM_DAYS.includes(i);
