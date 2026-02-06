@@ -84,9 +84,9 @@ export default function CloseSection() {
 
             <div className="text-center mb-10 md:mb-16 max-w-4xl pt-20 md:pt-0">
                 <h2 ref={headline} className="text-4xl md:text-7xl font-bold text-charcoal leading-tight">
-                    Growing skin doesn't need to be fixed.
+                    Growing skin doesn&apos;t need to be fixed.
                     <br />
-                    <span className="text-turquoise mt-4 md:mt-6 block">Let's prove it!</span>
+                    <span className="text-turquoise mt-4 md:mt-6 block">Let&apos;s prove it!</span>
                 </h2>
             </div>
 
@@ -144,8 +144,8 @@ export default function CloseSection() {
                             </form>
                         ) : (
                             <div className="text-center py-4">
-                                <p className="text-turquoise font-bold text-xl mb-2">You're on the list!</p>
-                                <p className="text-charcoal/60 text-sm">We'll be in touch soon.</p>
+                                <p className="text-turquoise font-bold text-xl mb-2">You&apos;re on the list!</p>
+                                <p className="text-charcoal/60 text-sm">We&apos;ll be in touch soon.</p>
                             </div>
                         )}
                     </div>
@@ -156,7 +156,7 @@ export default function CloseSection() {
                     href="mailto:sahajsadhu@gmail.com"
                     className="flex items-center justify-center h-[60px] px-8 rounded-full border-2 border-turquoise text-turquoise font-bold text-lg hover:bg-turquoise/5 transition-colors w-full text-center"
                 >
-                    Let's Talk
+                    Let&apos;s Talk
                 </a>
 
             </div>

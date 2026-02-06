@@ -76,7 +76,7 @@ export default function ChallengeSection() {
                 <h2 ref={headline} className="text-3xl md:text-6xl font-bold text-charcoal leading-tight">
                     Why this is hard?
                     <br />
-                    <span className="text-charcoal/60">(And why that's the point.)</span>
+                    <span className="text-charcoal/60">(And why that&apos;s the point.)</span>
                 </h2>
             </div>
 
@@ -101,7 +101,7 @@ export default function ChallengeSection() {
 
             <div className="bottom-text text-center text-charcoal/80 text-lg md:text-xl font-medium max-w-2xl">
                 <p>These challenges will become our moat.</p>
-                <p className="mt-1">Anyone taking shortcuts can't build what we're building.</p>
+                <p className="mt-1">Anyone taking shortcuts can&apos;t build what we&apos;re building.</p>
             </div>
 
         </section>

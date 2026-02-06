@@ -72,7 +72,7 @@ export default function ProofSection() {
         <section ref={container} className="min-h-[80vh] w-full bg-white flex flex-col items-center justify-center py-24 px-6">
 
             <h2 ref={headline} className="text-3xl md:text-6xl font-bold text-charcoal mb-12 md:mb-20 text-center">
-                We didn't guess. We asked.
+                We didn&apos;t guess. We asked.
             </h2>
 
             <div ref={statsContainer} className="flex flex-col md:flex-row gap-12 md:gap-24 items-center justify-center mb-16 w-full max-w-6xl">
@@ -86,20 +86,20 @@ export default function ProofSection() {
                 {/* Stat 2 */}
                 <div className="stat-item flex flex-col items-center text-center" data-suffix="%">
                     <span className="stat-number text-5xl md:text-9xl font-bold text-turquoise mb-2 md:mb-4" data-target="70">0</span>
-                    <p className="text-charcoal font-bold text-sm md:text-xl uppercase tracking-widest">Said "This is a real problem"</p>
+                    <p className="text-charcoal font-bold text-sm md:text-xl uppercase tracking-widest">Said &quot;This is a real problem&quot;</p>
                 </div>
 
                 {/* Stat 3 */}
                 <div className="stat-item flex flex-col items-center text-center" data-suffix="%">
                     <span className="stat-number text-5xl md:text-9xl font-bold text-turquoise mb-2 md:mb-4" data-target="30">0</span>
-                    <p className="text-charcoal font-bold text-sm md:text-xl uppercase tracking-widest">Said "I can't unsee it"</p>
+                    <p className="text-charcoal font-bold text-sm md:text-xl uppercase tracking-widest">Said &quot;I can&apos;t unsee it&quot;</p>
                 </div>
 
             </div>
 
             <div ref={subtext} className="text-center text-charcoal/60 text-lg md:text-xl max-w-2xl">
                 <p>100+ formal survey responses. 30+ parents. Real names. Real data.</p>
-                <p className="font-bold text-charcoal mt-2">This isn't theory. It's validated.</p>
+                <p className="font-bold text-charcoal mt-2">This isn&apos;t theory. It&apos;s validated.</p>
             </div>
 
         </section>

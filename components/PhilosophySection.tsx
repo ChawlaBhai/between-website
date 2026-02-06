@@ -51,9 +51,9 @@ export default function PhilosophySection() {
             {/* Main Statement */}
             <div className="text-center max-w-4xl mb-10 md:mb-20">
                 <h2 ref={title} className="text-2xl md:text-6xl font-bold text-charcoal leading-tight">
-                    Healthy growing skin
+                    It&apos;s not acne. It&apos;s not &quot;bad skin&quot;.
                     <br />
-                    doesn't need to be fixed.
+                    It&apos;s a capability gap.
                     <br />
                     <span className="text-turquoise mt-2 md:mt-4 block">It needs to be supported.</span>
                 </h2>
@@ -82,7 +82,7 @@ export default function PhilosophySection() {
                     </div>
                     <h3 className="text-xl font-bold text-charcoal mb-3">Prevention Over Cure</h3>
                     <p className="text-charcoal/70 leading-relaxed">
-                        We build resilience so skin doesn't need correction later.
+                        We build resilience so skin doesn&apos;t need correction later.
                     </p>
                 </div>
 
